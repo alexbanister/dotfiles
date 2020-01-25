@@ -11,6 +11,7 @@ alias .6='cd ../../../../../../'            # Go back 6 directory levels
 alias ~="cd ~"                              # ~:            Go Home
 alias src="source ~/.bash_profile"       #Source bash profile
 alias profile="vim ~/.bash_profile"        #open bash profile in vs code
+alias config='/usr/bin/git --git-dir=/Users/alexbanister/.cfg/ --work-tree=/Users/alexbanister'
 alias gs='git status'
 alias ga='git add .'
 alias gc='git commit -am'
